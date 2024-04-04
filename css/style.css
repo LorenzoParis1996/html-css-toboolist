@@ -80,6 +80,19 @@ li {
     font-size: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    list-style: none;
+}
+
+li:before {
+    content: "\2713";
+    padding: 0.5em;
+    border-color: green;
+    color: green;
+}
+
+.sub-list:before {
+    content: "\2717";
+    color: red;
 }
 
 #list-1 {
@@ -100,6 +113,10 @@ span {
     color: white;
     border-radius: 15px;
     padding: 8px;
+}
+
+.check-mark {
+    color: green;
 }
 
 .editorial {
