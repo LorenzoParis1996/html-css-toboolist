@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: grey;
+    background-color: rgb(226, 224, 224);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -58,7 +58,7 @@ button {
 
 section {
     width: 1000px;
-    height: 670px;
+    height: 680px;
     margin: auto;
     margin-top: 2px;
     border-bottom-left-radius: 5px;
@@ -72,9 +72,10 @@ ul {
 }
 
 .list-title {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
 }
+
 
 li {
     font-size: 20px;
@@ -128,7 +129,7 @@ span {
 }
 
 #recruiting {
-    background-color: green;
+    background-color: rgb(8, 201, 175);
 }
 
 #mobile {
@@ -136,9 +137,9 @@ span {
 }
 
 #website {
-    background-color: rgb(204, 42, 118);
+    background-color: rgb(219, 119, 166);
 }
 
 #sales {
-    background-color: greenyellow;
+    background-color: rgb(141, 197, 56);
 }
